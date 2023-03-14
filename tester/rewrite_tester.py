@@ -25,9 +25,6 @@ class RewriteTester:
 
         self.use_junit = use_junit
 
-        if self.use_junit:
-            from junit_xml import TestSuite, TestCase
-
     @staticmethod
     def random_string(chars=string.ascii_lowercase + string.digits, n=10):
         return ''.join(random.choice(chars) for _ in range(n))
@@ -144,6 +141,10 @@ class RewriteTester:
     # Run all tests in the tests.json file
 
     def run_all_tests(self):
+
+        if self.use_junit:
+            from junit_xml import TestSuite, TestCase
+
         # Error out if we haven't created a test for each rule
         missing_tests = self._find_missing_tests()
         if missing_tests:
@@ -210,6 +211,10 @@ class RewriteTester:
 
     # Run a test and compare the output to the expected output
     def run_test(self, test_name: str, test: Dict[str, str]) -> tuple:
+
+        if self.use_junit:
+            from junit_xml import TestSuite, TestCase
+
         print(f'Running test: "{test_name}"')
 
         if self._debug:
