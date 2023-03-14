@@ -1,0 +1,11 @@
+{
+  "name": "aws-tamu-cloudfront-with-lambda-edge",
+  "version": "3.0.0",
+  "description": "labmda@edge redirector",
+  "repository": "",
+  "author": "Blake Dworaczyk <blaked@tamu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
