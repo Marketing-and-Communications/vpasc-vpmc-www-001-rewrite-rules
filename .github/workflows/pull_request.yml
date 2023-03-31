@@ -2,8 +2,9 @@ name: "CI: Test Lambda@Edge Static Site Rewrite Rules"
 on: 
   pull_request:
     branches:
+      - dev
       - staging
-      - main
+      - prod
     paths-ignore:
       - '.gitignore'
       - 'README.md'
