@@ -6,11 +6,6 @@
     "^/upress.*$ http://www.tamupress.com [R=301,L,NC]",
     "^/visitors/visitor-center/holidaySchedule.html /visitors/schedule.html [R=301,L,NC]",
     "^/visitors/aec/index.html /visitors/tour-leaders.html [R=301,L,NC]",
-    "^/faculty/ccbn/dewitt http://www.sonofdewittcolony.org [R=301,L,NC]",
-    "^/faculty/choudhury http://people.tamu.edu/~i-choudhury [R=301,L,NC]",
-    "^/faculty/pillailab http://ebeam-tamu.org [R=301,L,NC]",
-
-
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^((?:(?![.]|[?]).)*(?<![/]))?[/]?([?].*)$ $1/index.html$2 [R,L]",
