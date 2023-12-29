@@ -97,6 +97,8 @@
     "^/traditions/the-corps/march-to-the-brazos/index.html /campus-community/traditions/corps-of-cadets/march-to-the-brazos.html [R=301,L,NC]",
     "^/traditions/the-corps/special-units/index.html /campus-community/traditions/corps-of-cadets/corps-units.html [R=301,L,NC]",
     "^/visitors/index.html /visit/index.html [R=301,L,NC]",
+    "^/about/employment.html /employment/index.html [R=301,L,NC]",
+    "^/about/social-directory.html /index.html [R=301,L,NC]",
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^((?:(?![.]|[?]).)*(?<![/]))?[/]?([?].*)$ $1/index.html$2 [R,L]",
