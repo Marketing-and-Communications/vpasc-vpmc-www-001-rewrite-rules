@@ -99,6 +99,7 @@
     "^/visitors/index.html /visit/index.html [R=301,L,NC]",
     "^/about/employment.html /employment/index.html [R=301,L,NC]",
     "^/about/social-directory.html /index.html [R=301,L,NC]",
+    "^/admissions/costs-tuitions.html /admissions/costs-tuition.html [R=301,L,NC]",
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^((?:(?![.]|[?]).)*(?<![/]))?[/]?([?].*)$ $1/index.html$2 [R,L]",
