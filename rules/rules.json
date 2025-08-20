@@ -101,6 +101,7 @@
     "^/about/social-directory.html /index.html [R=301,L,NC]",
     "^/admissions/costs-tuitions.html /admissions/costs-tuition.html [R=301,L,NC]",
     "^/map/index.html https://aggiemap.tamu.edu [R=301,L,NC]",
+    "^/lone-star-showdown/.* /index.html [R=301,L,NC]",
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^((?:(?![.]|[?]).)*(?<![/]))?[/]?([?].*)$ $1/index.html$2 [R,L]",
