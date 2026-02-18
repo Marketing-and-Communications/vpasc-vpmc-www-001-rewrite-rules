@@ -1,4 +1,6 @@
 [
+    "^/good-citizens/index.html /citizens-for-good/index.html [R=301,L,NC]",
+    "^/150/index.html https://150.tamu.edu/index.html [R=301,L,NC]",
     "^/eduroam.*$ https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,a6f3f1da6f64c600b522db3bbb3ee41a [R=301,L,NC]",
     "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
     "^/upress.*$ http://www.tamupress.com [R=301,L,NC]",
