@@ -2,6 +2,10 @@
 
 Lambda@Edge rewrite rules, tests, and pipeline
 
+## Manual Testing
+Redirects added to the staging branch should work on [staging.www-site.cloud.tamu.edu](https://staging.www-site.cloud.tamu.edu/). Test there, verify they work then do a pull request into prod.
+
+
 ## Usage Summary
 
 Fork or clone this repository and modify *rules.json* file in the rules directory, then write tests in the tests directory. 
