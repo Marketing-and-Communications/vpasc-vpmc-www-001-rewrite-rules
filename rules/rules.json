@@ -1,6 +1,6 @@
 [
     "^/good-citizens/?.* /citizens-for-good/index.html [R=301,L,NC]",
-    "^/150/index.html https://150.tamu.edu [R=301,L,NC]",
+    "^/150(/.*)?$ https://150.tamu.edu [R=301,L,NC]",
     "^/eduroam.*$ https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,a6f3f1da6f64c600b522db3bbb3ee41a [R=301,L,NC]",
     "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
     "^/upress.*$ http://www.tamupress.com [R=301,L,NC]",
@@ -10,7 +10,7 @@
     "^/about/campuses-and-partners.html /academics/campuses-locations.html [R=301,L,NC]",
     "^/about/coreValues.html /about/purpose-values.html [R=301,L,NC]",
     "^/about/departments.html /academics/colleges-schools/index.html [R=301,L,NC]",
-    "^/about/emergency-services.html /emergency/communications/emergency-contact-information.html [R=301,L,NC]",
+    "^/about/emergency-services.html https://em.tamu.edu/emergency-communications/public-safety-contacts.html [R=301,L,NC]",
     "^/about/local/index.html /campus-community/life-in-aggieland/index.html [R=301,L,NC]",
     "^/contact-us/index.html /contact/index.html [R=301,L,NC]",
     "^/emergency/after/after-action-review.html https://em.tamu.edu/for-departments/exercises.html [R=301,L,NC]",
