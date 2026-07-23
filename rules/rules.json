@@ -107,8 +107,6 @@
     "^/emergency/preparing/index.html https://em.tamu.edu [R=301,L,NC]",
     "^/emergency/resources/index.html https://em.tamu.edu [R=301,L,NC]",
     "^/emergency/preparing/presentation-opportunities.html https://em.tamu.edu [R=301,L,NC]",
-    "^/emergency/?$ https://em.tamu.edu/ [R=301,L,NC]",
-    "^/emergency/index.html$ https://em.tamu.edu/ [R=301,L,NC]",
     "^/faculty-staff/directory.html /academics/colleges-schools/index.html [R=301,L,NC]",
     "^/faculty-staff/index.html /faculty/index.html [R=301,L,NC]",
     "^/parents/index.html /parents-families/index.html [R=301,L,NC]",
